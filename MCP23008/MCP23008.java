@@ -269,7 +269,6 @@ public class MCP23008 {
         }
 
         public byte getByte() {
-            //  Log.d("MCP", String.format("OLAT: %02X", mValue));
             return mValue;
         }
     }
